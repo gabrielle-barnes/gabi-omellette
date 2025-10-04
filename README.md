@@ -1,2 +1,2 @@
-# gabi-omellette
-I might have misspelled omelette when making an account for neocities 
+### gabi-omellette
+blog project - I want to make an "old internet" website
