@@ -7,3 +7,38 @@ body {
   color: black;
   font-family: Verdana;
 }
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template:
+    "header header"
+    "sidebar main"
+    "footer footer"
+    / 100px 1fr;
+}
+
+header {
+  grid-area: header;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+main {
+  grid-area: main;
+  background-color: white;
+  padding: 10px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+}
