@@ -7,7 +7,10 @@
 }
 
 body {
-  background-color: white;
+  background-image: url("../images/bg.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
   color: black;
   font-family: Verdana;
   min-height: 100vh;
@@ -18,14 +21,6 @@ body {
 body,
 html {
   min-height: 100vh;
-}
-
-.bg {
-  background-image: url("../images/bg.png");
-  background-repeat: repeat;
-  min-height: 100vh;
-  background-position: center;
-  background-size: cover;
 }
 
 h1 {
