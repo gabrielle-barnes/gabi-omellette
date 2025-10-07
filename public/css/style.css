@@ -8,6 +8,10 @@ body {
   font-family: Verdana;
 }
 
+h1 {
+  text-align: center;
+}
+
 .container {
   display: grid;
   grid-gap: 10px;
@@ -22,11 +26,12 @@ header {
   grid-area: header;
   background-color: lightblue;
   padding: 10px;
+  text-align: center;
 }
 
 aside {
   grid-area: sidebar;
-  background-color: lightgray;
+  background-color: rgb(225, 140, 140);
   padding: 10px;
 }
 
@@ -34,6 +39,7 @@ main {
   grid-area: main;
   background-color: white;
   padding: 10px;
+  text-align: left;
 }
 
 footer {
