@@ -45,7 +45,7 @@ h1 {
 /* The "welcome to my site" section */
 header {
   grid-area: header;
-  background-color: lightblue;
+  background-color: transparent;
   padding: 10px;
   text-align: center;
   min-height: 50px;
@@ -54,14 +54,14 @@ header {
 /* The navigation section */
 aside {
   grid-area: sidebar;
-  background-color: rgb(246, 202, 210);
+  background-color: transparent;
   padding: 10px;
 }
 
 /* The main content section */
 main {
   grid-area: main;
-  background-color: white;
+  background-color: transparent;
   padding: 10px;
   text-align: left;
 }
@@ -69,7 +69,7 @@ main {
 /* The footer section */
 footer {
   grid-area: footer;
-  background-color: lightblue;
+  background-color: transparent;
   padding: 10px;
   text-align: center;
   min-height: 50px;
