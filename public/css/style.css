@@ -6,23 +6,23 @@
   box-sizing: border-box;
 }
 
-/* Creates the background image to cover the entire page */
-html {
-  background: url(assets/images/bg.png) repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* Basic styling for the body and headings, also grid template */
 body {
-  background-color: white;
+  background: url("../assets/images/bg.png") repeat center center fixed;
+  background-size: cover;
   color: black;
   font-family: Verdana;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-color: transparent;
 }
 
 h1 {
