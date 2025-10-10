@@ -6,11 +6,18 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("../images/bg.png");
-  background-repeat: repeat;
-  background-position: center;
+/* Creates the background image to cover the entire page */
+html {
+  background: url(assets/images/bg.png) repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+}
+
+/* Basic styling for the body and headings, also grid template */
+body {
+  background-color: white;
   color: black;
   font-family: Verdana;
   min-height: 100vh;
@@ -18,15 +25,11 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-body,
-html {
-  min-height: 100vh;
-}
-
 h1 {
   text-align: center;
 }
 
+/* Grid layout for the main content area */
 .container {
   display: grid;
   grid-gap: 10px;
@@ -37,6 +40,7 @@ h1 {
     / 1fr 3fr;
 }
 
+/* The "welcome to my site" section */
 header {
   grid-area: header;
   background-color: lightblue;
@@ -45,12 +49,14 @@ header {
   min-height: 50px;
 }
 
+/* The navigation section */
 aside {
   grid-area: sidebar;
   background-color: rgb(246, 202, 210);
   padding: 10px;
 }
 
+/* The main content section */
 main {
   grid-area: main;
   background-color: white;
@@ -58,6 +64,7 @@ main {
   text-align: left;
 }
 
+/* The footer section */
 footer {
   grid-area: footer;
   background-color: lightblue;
