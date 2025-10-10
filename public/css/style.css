@@ -10,19 +10,21 @@ html,
 body {
   height: 100%;
   margin: 0;
-  box-sizing: border-box;
+}
+
+html {
+  background: url("../assets/images/bg.png") repeat center center;
+  background-size: auto;
 }
 
 /* Basic styling for the body and headings, also grid template */
 body {
-  background: url("../assets/images/bg.png") repeat center center fixed;
-  background-size: cover;
+  background-color: transparent;
   color: black;
   font-family: Verdana;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: transparent;
 }
 
 h1 {
