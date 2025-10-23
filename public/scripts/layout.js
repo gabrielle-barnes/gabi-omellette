@@ -41,7 +41,7 @@ function headerHTML() {
 	            <li>
 	                <strong>Submenu (hover to show)</strong>
 	                <ul>
-	                  <li><a href="/page-a">Page A</a></li>
+	                  <li><a href="/page-a">Buttons</a></li>
 	                  <li><a href="/page-b">Page B</a></li>
 	                  <li><a href="/page-c">Page C</a></li>
 	                  <li><a href="/page-d">Page D</a></li>
@@ -83,38 +83,25 @@ function headerHTML() {
           <blockquote>
             <p>The fresh morning air seemed to drive away all his sombre passions. He thought only of Sibyl. 
             A faint echo of his love came back to him.</p>
-            <p><em>The Picture of Dorian Gray by Oscar Wilde<em></p>
+            <p><em>The Picture of Dorian Gray by Oscar Wilde</em></p>
           </blockquote>
         </div>
         
-        // <div class="sidebar-section">
-        //   <div class="sidebar-title">Section Title</div>
-        //   <marquee>
-        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-        //   </marquee>
-        // </div>
+        <div class="sidebar-section">
+          <div class="sidebar-title">Section Title</div>
+          <marquee>
+          	<img src="https://cyber.dabamos.de/88x31/doghouse1.gif" alt="doghouse"></a>
+          	<img src="https://cyber.dabamos.de/88x31/finger-logo-cat.gif" alt="finger-logo-cat"></a>
+          	<img src="https://cyber.dabamos.de/88x31/fingerofgod.gif" alt="fingerofgod"></a>
+          	<img src="https://cyber.dabamos.de/88x31/macmade3.gif" alt="macmade"></a>
+          </marquee>
+        </div>
 
         <div class="sidebar-section">
           <div class="sidebar-title">Listening To:</div>
-          <p>Smooth Operator -<em>Sade<em></p>
-          <p>Performance, Gothic Writing, and Experimentation with Leigh Stein -<em>Hot Literati<em></p>
+          <p>Smooth Operator -<em>Sade</em></p>
+          <p>Performance, Gothic Writing, and Experimentation with Leigh Stein -<em>Hot Literati</em></p>
         </div>
-        
-        // <div class="sidebar-section">
-        //   <div class="sidebar-title">Section Title</div>
-        //   <img class="full-width-image" src="https://picsum.photos/id/38/1000/400">
-        // </div>
-        
-        // <div class="sidebar-section">
-        //   <div class="sidebar-title">Section Title</div>
-        //   <div class="site-button">
-        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-        // 	<textarea><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a></textarea>
-        //   </div>
-        // </div>
       </aside>
 	
       `;
