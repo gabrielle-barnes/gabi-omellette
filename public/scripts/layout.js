@@ -29,15 +29,15 @@ function headerHTML() {
       <header>
 
         <div class="header-content">
-	        <div class="header-title">Website Title</div>
+	        <div class="header-title">Gabi's Omellette</div>
 	        
 	        <!-- NAVIGATION -->
 	        <nav>
 	          <ul>
 	            <li><a href="/">Home</a></li>
-	            <li><a href="/page1">Page 1</a></li>
-	            <li><a href="/page2">Page 2</a></li>
-	            <li><a href="/page3">Page 3</a></li>
+	            <li><a href="/page1">Projects</a></li>
+	            <li><a href="/page2">Newsletter</a></li>
+	            <li><a href="/page3">Inspo</a></li>
 	            <li>
 	                <strong>Submenu (hover to show)</strong>
 	                <ul>
@@ -61,54 +61,60 @@ function headerHTML() {
       <!-- =============================================== -->
 
       <aside class="left-sidebar">
-	  
-        
+
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Necessit atibus perferendis inventore tempore vel optio similique blanditiis quasi quam?</p>
-        </div>
-        
-        <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Necessit atibus perferendis inventore tempore vel optio similique blanditiis quasi quam?</p>
-          </blockquote>
-        </div>
-        
-        <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Links</div>
           <ul>
-            <li>List</li>
-            <li>List</li>
-            <li><a href="/">List</a></li>
-            <li>List</li>
+            <li><a href="https://github.com/gabrielle-barnes" target="_blank">GitHub</a></li>
+            <li><a href="https://www.goodreads.com/user/show/171387956-gabrielle-barnes" target="_blank">Books I enjoy</a></li>
+            <li><a href="https://gabrielle-barnes.github.io/" target="_blank">Serious website</a></li>
           </ul>
         </div>
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <marquee>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-          </marquee>
+          <div class="sidebar-title">Currently Into:</div>
+          <p>The process of emotions, especially when tied to a specific event or goal. Like in Dorian Gray when
+          his soon to be fiance fails one performance and he no longer believes in love.</p>
+          <p>Scandi style sweaters and olive green ballet flats from Ganni <3</p>
         </div>
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <img class="full-width-image" src="https://picsum.photos/id/38/1000/400">
+          <div class="sidebar-title">Quote of the Week:</div>
+          <blockquote>
+            <p>The fresh morning air seemed to drive away all his sombre passions. He thought only of Sibyl. 
+            A faint echo of his love came back to him.</p>
+            <p><em>The Picture of Dorian Gray by Oscar Wilde<em></p>
+          </blockquote>
         </div>
         
+        // <div class="sidebar-section">
+        //   <div class="sidebar-title">Section Title</div>
+        //   <marquee>
+        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
+        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
+        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
+        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
+        //   </marquee>
+        // </div>
+
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <div class="site-button">
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-        	<textarea><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a></textarea>
-          </div>
+          <div class="sidebar-title">Listening To:</div>
+          <p>Smooth Operator -<em>Sade<em></p>
+          <p>Performance, Gothic Writing, and Experimentation with Leigh Stein -<em>Hot Literati<em></p>
         </div>
+        
+        // <div class="sidebar-section">
+        //   <div class="sidebar-title">Section Title</div>
+        //   <img class="full-width-image" src="https://picsum.photos/id/38/1000/400">
+        // </div>
+        
+        // <div class="sidebar-section">
+        //   <div class="sidebar-title">Section Title</div>
+        //   <div class="site-button">
+        //   	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
+        // 	<textarea><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a></textarea>
+        //   </div>
+        // </div>
       </aside>
 	
       `;
