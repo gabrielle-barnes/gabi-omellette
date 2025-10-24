@@ -73,18 +73,17 @@ function headerHTML() {
         
         <div class="sidebar-section">
           <div class="sidebar-title">Currently Into:</div>
-          <p>The process of emotions, especially when tied to a specific event or goal. Like in Dorian Gray when
-          his soon to be fiance fails one performance and he no longer believes in love.</p>
+          <p>Getting the <em>paper version</em> of the Financial Times delivered.</p>
           <p>Scandi style sweaters and olive green ballet flats from Ganni <3</p>
-          <img src="https://ibb.co/ZR8C5HzR" alt="ballet-flats-ganni">
+          <img src="https://cyber.dabamos.de/88x31/nc_times.gif" alt="nc_times">
         </div>
         
         <div class="sidebar-section">
           <div class="sidebar-title">Quote of the Week:</div>
           <blockquote>
-            <p>The fresh morning air seemed to drive away all his sombre passions. He thought only of Sibyl. 
-            A faint echo of his love came back to him.</p>
-            <p><em>The Picture of Dorian Gray by Oscar Wilde</em></p>
+            <p><em>"The fresh morning air seemed to drive away all his sombre passions. He thought only of Sibyl. 
+            A faint echo of his love came back to him."</em></p>
+            <p>The Picture of Dorian Gray by Oscar Wilde</p>
           </blockquote>
         </div>
         
