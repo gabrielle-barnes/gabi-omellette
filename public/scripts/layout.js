@@ -87,7 +87,7 @@ function headerHTML() {
         </div>
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Favorite Buttons:</div>
+          <div class="sidebar-title">Fave Buttons:</div>
           <marquee>
           	<img src="https://cyber.dabamos.de/88x31/doghouse1.gif" alt="doghouse">
           	<img src="https://cyber.dabamos.de/88x31/finger-logo-cat.gif" alt="finger-logo-cat">
@@ -121,7 +121,7 @@ function footerHTML() {
       <!-- =============================================== -->
 
       <footer>
-            <div>Footer Text. <a href="/">Link.</a> Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div>
+            <div>Thanks for visiting my site! <a href="https://github.com/gabrielle-barnes/gabi-omellette">Code.</a></div>
       </footer>`;
 }
 
