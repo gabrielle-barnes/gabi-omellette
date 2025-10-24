@@ -76,6 +76,7 @@ function headerHTML() {
           <p>The process of emotions, especially when tied to a specific event or goal. Like in Dorian Gray when
           his soon to be fiance fails one performance and he no longer believes in love.</p>
           <p>Scandi style sweaters and olive green ballet flats from Ganni <3</p>
+          <img src="https://ibb.co/ZR8C5HzR" alt="ballet-flats-ganni">
         </div>
         
         <div class="sidebar-section">
@@ -88,12 +89,14 @@ function headerHTML() {
         </div>
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Favorite Buttons:</div>
           <marquee>
-          	<img src="https://cyber.dabamos.de/88x31/doghouse1.gif" alt="doghouse"></a>
-          	<img src="https://cyber.dabamos.de/88x31/finger-logo-cat.gif" alt="finger-logo-cat"></a>
-          	<img src="https://cyber.dabamos.de/88x31/fingerofgod.gif" alt="fingerofgod"></a>
-          	<img src="https://cyber.dabamos.de/88x31/macmade3.gif" alt="macmade"></a>
+          	<img src="https://cyber.dabamos.de/88x31/doghouse1.gif" alt="doghouse">
+          	<img src="https://cyber.dabamos.de/88x31/finger-logo-cat.gif" alt="finger-logo-cat">
+          	<img src="https://cyber.dabamos.de/88x31/fingerofgod.gif" alt="fingerofgod">
+          	<img src="https://cyber.dabamos.de/88x31/macmade3.gif" alt="macmade">
+            <img src="https://cyber.dabamos.de/88x31/nc_tribune.gif" alt="nc_tribune">
+            <img src="https://cyber.dabamos.de/88x31/neko.gif" alt="neko">
           </marquee>
         </div>
 
