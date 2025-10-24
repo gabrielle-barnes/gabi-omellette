@@ -75,7 +75,6 @@ function headerHTML() {
           <div class="sidebar-title">Currently Into:</div>
           <p>Getting the <em>paper version</em> of the Financial Times delivered.</p>
           <p>Scandi style sweaters and olive green ballet flats from Ganni <3</p>
-          <img src="https://cyber.dabamos.de/88x31/nc_times.gif" alt="nc_times">
         </div>
         
         <div class="sidebar-section">
