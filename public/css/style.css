@@ -13,10 +13,10 @@
   --sidebar-background-color: #fffefcff;
 
   /* Text Colors: */
-  --text-color: #000000;
-  --sidebar-text-color: #000000;
-  --link-color: #ffc40c;
-  --link-color-hover: #faca16;
+  --text-color: #04080f;
+  --sidebar-text-color: #04080f;
+  --link-color: #f4acb7;
+  --link-color-hover: #f8c1ca;
 
   /* Text: */
   --font: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ,
@@ -53,7 +53,7 @@ body {
   font-family: var(--font);
   line-height: 1.2;
   background: var(--background-color);
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAACFUlEQVR4AeyT0U0DURADj2uCMui/AcqgFKADf1jysy+ZSPla2buZybs/Pr/++O4wuC8+UwQQMqXjuhCCkDECY+fwQhAyRmDsHF4IQsYIjJ3DC3kLIWM/8knn8ELGbCEEIWMExs7hhSBkjMDYObwQhIwRGDuHF4KQMQJj5zzphYyhy5yDkAxXuxUhNrpMECEZrnYrQmx0mSBCMlztVoTY6DJBhGS42q0IsdFlggjJcLVbEWKjywQRkuFqtyLERpcJIiTD1W5FiI0uE0RIhqvdihAbXSaIkAxXuxUhNrpMECEZrnYrQmx0MmgPEWKjywQRkuFqtyLERpcJIiTD1W5FiI0uE0RIhqvdihAbXSaIkAxXuxUhNrpM8P79+b747jCQLyTzH6BVEUCIolOYIaQAXa1EiKJTmCGkAF2tRIiiU5ghpABdrUSIolOYIaQAXa1EiKJTmBWEFH7lg1YiZEwWQhAyRmDsHF4IQsYIjJ3DC0HIGIGxc3ghCBkjMHbOy7yQMa72OQix0WWCCMlwtVsRYqPLBBGS4Wq3IsRGlwkiJMPVbkWIjS4TREiGq92KEBtdJogQyfX8ECHnmcuNCJF4zg8Rcp653IgQief8ECHnmcuNCJF4zg8Rcp653IgQief8ECHnmcuNCJF4MkPVihBFpzBDSAG6WokQRacwQ0gBulqJEEWnMENIAbpaiRBFpzBDSAG6WvkPAAD//xdR7GgAAAAGSURBVAMALbuHeAct+v4AAAAASUVORK5CYII=");
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAACEElEQVR4AeyTwQ0CQQwDV9cfxUJbFAEd+GHJiQ8GiVdkJ8yw1+NxPnx7GFyHTxUBhFTpOAchCCkjUHYOLwQhZQTKzuGFIKSMQNk5vJC/EFL2I+90Di+kzBZCEFJGoOwcXghCygiUncMLQUgZgbJzeCEIKSNQds6dXkgZusw5CMlwtVsRYqPLBBGS4Wq3IsRGlwkiJMPVbkWIjS4TREiGq92KEBtdJoiQDFe7FSE2ukwQIRmuditCbHSZIEIyXO1WhNjoMkGEZLjarQix0WWCCMlwtVsRYqPLBBGS4Wq3IsRGJ4P2ECE2ukwQIRmuditCbHSZIEIyXO1WhNjoMkGEZLjarQix0WWCCMlwtVsRYqPLBK/X83349jCQLyTzH6BVEUCIorMwQ8gCdLUSIYrOwgwhC9DVSoQoOgszhCxAVysRougszBCyAF2tRIiiszBbELLwK2+0EiFlshCCkDICZefwQhBSRqDsHF4IQsoIlJ3DC0FIGYGyc37mhZRxtc9BiI0uE0RIhqvdihAbXSaIkAxXuxUhNrpMECEZrnYrQmx0mSBCMlztVoTY6DJBhEiu80OEzDOXGxEi8cwPETLPXG5EiMQzP0TIPHO5ESESz/wQIfPM5UaESDzzQ4TMM5cbESLxZIaqFSGKzsIMIQvQ1UqEKDoLM4QsQFcrEaLoLMwQsgBdrUSIorMwQ8gCdLXyCwAA///WwLARAAAABklEQVQDAMVWhxTx2P2pAAAAAElFTkSuQmCC");
 }
 
 ::selection {
@@ -92,9 +92,11 @@ a:focus {
   width: 1000px;
   display: grid;
   grid-gap: var(--margin);
-  grid-template: "header header" auto "leftSidebar main" auto "footer footer" auto / var(
+  grid-template:
+    "header header" auto "leftSidebar main" auto "footer footer" auto / var(
       --sidebar-width
-    ) auto;
+    )
+    auto;
   /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
 }
 
