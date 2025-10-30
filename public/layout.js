@@ -35,9 +35,9 @@ function headerHTML() {
 	        <nav>
 	          <ul>
 	            <li><a href="/">Home</a></li>
-	            <li><a href="/page1">Projects</a></li>
-	            <li><a href="/page2">Newsletter</a></li>
-	            <li><a href="/page3">Inspo</a></li>
+	            <li><a href="/pages/projects.html">Projects</a></li>
+	            <li><a href="/pages/newsletter.html">Newsletter</a></li>
+	            <li><a href="/pages/inspo.html">Inspo</a></li>
 	            <li>
 	                <strong>Submenu (hover to show)</strong>
 	                <ul>
