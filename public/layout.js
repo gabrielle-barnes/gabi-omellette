@@ -34,18 +34,18 @@ function headerHTML() {
 	        <!-- NAVIGATION -->
 	        <nav>
 	          <ul>
-	            <li><a href="/">Home</a></li>
-	            <li><a href="/pages/projects.html">Projects</a></li>
-	            <li><a href="/pages/newsletter.html">Newsletter</a></li>
-	            <li><a href="/pages/inspo.html">Inspo</a></li>
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="pages/projects.html">Projects</a></li>
+	            <li><a href="pages/newsletter.html">Newsletter</a></li>
+	            <li><a href="pages/inspo.html">Inspo</a></li>
 	            <li>
 	                <strong>Submenu (hover to show)</strong>
 	                <ul>
-	                  <li><a href="/page-a">Buttons</a></li>
-	                  <li><a href="/page-b">Page B</a></li>
-	                  <li><a href="/page-c">Page C</a></li>
-	                  <li><a href="/page-d">Page D</a></li>
-	                  <li><a href="/page-e">Page E</a></li>
+	                  <li><a href="pages/page-a.html">Buttons</a></li>
+	                  <li><a href="pages/page-b.html">Page B</a></li>
+	                  <li><a href="pages/page-c.html">Page C</a></li>
+	                  <li><a href="pages/page-d.html">Page D</a></li>
+	                  <li><a href="pages/page-e.html">Page E</a></li>
 	                </ul>
 	            </li>
 	          </ul>
