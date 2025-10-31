@@ -17,6 +17,8 @@
   --sidebar-text-color: #04080f;
   --link-color: #f4acb7;
   --link-color-hover: #f8c1ca;
+  --link-color-projects: #72251f;
+  --link-color-projects-hover: #9b3428;
 
   /* Text: */
   --font: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ,
@@ -607,10 +609,10 @@ main h6 {
 }
 
 .thumb_img {
-  width: 200px;
-  height: 150px;
-  object-fit: contain;
-  border-radius: 4px;
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 2px;
   border: var(--border);
   margin-right: 15px;
 }
@@ -619,12 +621,16 @@ main h6 {
   flex: 1;
 }
 
+.project_title,
 .project_title a {
   font-family: var(--heading-font);
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin: 0 0 0.3em 0;
+}
+
+.project_title a {
   color: var(--link-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .project_title a:hover {
