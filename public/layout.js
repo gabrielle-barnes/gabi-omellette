@@ -80,9 +80,8 @@ function headerHTML() {
         <div class="sidebar-section">
           <div class="sidebar-title">Quote of the Week:</div>
           <blockquote>
-            <p><em>"The fresh morning air seemed to drive away all his sombre passions. He thought only of Sibyl. 
-            A faint echo of his love came back to him."</em></p>
-            <p>The Picture of Dorian Gray by Oscar Wilde</p>
+            <p><em>"You cannot create results. You can only create conditions in which something might happen."</em></p>
+            <p>- Anne Bogart</p>
           </blockquote>
         </div>
         
@@ -100,8 +99,8 @@ function headerHTML() {
 
         <div class="sidebar-section">
           <div class="sidebar-title">Listening To:</div>
-          <p>Smooth Operator -<em>Sade</em></p>
-          <p>Performance, Gothic Writing, and Experimentation with Leigh Stein -<em>Hot Literati</em></p>
+          <p><em>Smooth Operator</em> - Sade</p>
+          <p><em>The Psychology of The Restless Wanderer</em> - Eternalised</p>
         </div>
       </aside>
 	
