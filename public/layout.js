@@ -73,8 +73,9 @@ function headerHTML() {
         
         <div class="sidebar-section">
           <div class="sidebar-title">Currently Into:</div>
-          <p>Getting the <em>paper version</em> of the Financial Times delivered.</p>
-          <p>Scandi style sweaters and olive green ballet flats from Ganni <3</p>
+          <p>The Winter sky after it rains <3</p>
+          <p>Hojicha lattes and chess</p>
+          <p>Penpals :) Hi Jess!</p>
         </div>
         
         <div class="sidebar-section">
@@ -99,8 +100,8 @@ function headerHTML() {
 
         <div class="sidebar-section">
           <div class="sidebar-title">Listening To:</div>
-          <p><em>Smooth Operator</em> - Sade</p>
-          <p><em>The Psychology of The Restless Wanderer</em> - Eternalised</p>
+          <p><em>Weak</em> - SWV</p>
+          <p><em>Studs Terkel Archive Podcast</em></p>
         </div>
       </aside>
 	
