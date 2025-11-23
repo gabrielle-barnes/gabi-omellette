@@ -656,3 +656,36 @@ main h6 {
     margin: 0 0 10px 0;
   }
 }
+
+/* TEMPORARY CSS FOR CHRISTMAS TAKEN FROM https://sugarfantasies.neocities.org/ */
+.christmas {
+  width: 45%;
+  background-image: url(https://sugarfantasies.neocities.org/index/christmas.webp);
+  height: 100%;
+  padding: 0.1px;
+}
+
+.christmas2 {
+  color: aliceblue;
+  margin-top: 40px;
+  margin-left: 5px;
+  font-style: italic;
+  text-shadow: -1px 0 #006800, 0 1px #006800, 1px 0 #006800, 0 -1px #006800, 0 0;
+  color: #ffcd87;
+  margin-bottom: 5px;
+}
+
+time {
+  text-shadow: -1px 0 #006800, 0 1px #006800, 1px 0 #006800, 0 -1px #006800, 0 0;
+  color: #e3ff87;
+  font-size: 2.2em;
+  margin-left: 5px;
+  font-style: italic;
+}
+
+.ahh {
+  text-shadow: -1px 0 #3ec8c3, 0 1px #3ec8c3, 1px 0 #3ec8c3, 0 -1px #3ec8c3, 0 0;
+  color: #ffffff;
+  font-size: 2.4em;
+  text-align: center;
+}
