@@ -3,6 +3,22 @@ document.addEventListener("DOMContentLoaded", function () {
   loadLayoutByPetraPixel();
 
   // Add any custom JavaScript code here...
+  const iconBlocks = [
+    { icon: "papersIcon", box: "writersInfo" },
+    { icon: "labIcon", box: "labInfo" },
+    { icon: "magazineIcon", box: "magInfo" },
+  ];
+
+  iconBlocks.forEach(({ icon, box }) => {
+    const img = document.getElementById(icon);
+    const info = document.getElementById(box);
+
+    if (img && info) {
+      img.addEventListener("click", () => {
+        info.classList.toggle("open");
+      });
+    }
+  });
 });
 
 function loadLayoutByPetraPixel() {

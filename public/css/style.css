@@ -689,3 +689,54 @@ time {
   font-size: 2.4em;
   text-align: center;
 }
+
+/* -------------------------------------------------------- */
+/*                      INSPO LAYOUT                        */
+/* -------------------------------------------------------- */
+.textbox_centered {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 1.5em;
+  border: 2px, solid, rgb(131, 5, 24);
+  border-radius: var(--round-borders);
+  background: var(--content-background-color);
+}
+
+.icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px 0;
+}
+
+.icon-block {
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+.icon-block .collapse {
+  width: 100%;
+  max-width: 650px;
+  margin: 15px auto;
+}
+
+.icon_img {
+  width: 124px;
+  height: auto;
+  cursor: pointer;
+}
+
+.collapse {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+
+.collapse.open {
+  max-height: 2000px;
+}
+
+.collapse .project_card {
+  margin-bottom: 1em;
+}
